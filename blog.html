@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind CSS Link -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+
+    <!-- daisyUI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Google Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Assignment 05</title>
+    <style>
+        .font-poppins {
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+</head>
+
+<body id="changeColorBody" class="font-poppins bg-[#F4F7FF]">
+
+    <header class="container mx-auto">
+        <section class="">
+            <div class="navbar bg-white shadow-sm flex justify-between rounded-2xl px-6">
+                <div class="flex items-center">
+                    <img src="assets/logo.png" alt="">
+                    <a class="btn btn-ghost text-4xl"> <span>Dev<span class="font-bold">Board</span></span></a>
+                </div>
+
+                <div class="flex">
+                    <button id="backButton" class="btn bg-[#3752FD] text-white rounded-lg">Back to Desk</button>
+                </div>
+            </div>
+            </div>
+        </section>
+    </header>
+
+
+    <main class="container mx-auto mt-5 pb-11">
+        <h1 class="text-center font-bold text-2xl">Blogs</h1>
+
+        <!-- Question Start -->
+        <div>
+            <h1 class="font-medium text-xl bg-white p-3 rounded-lg">Question-1: What are the different ways to select an
+                element in the DOM?</h1>
+            <p class="text-xl bg-white p-3 rounded-lg mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laboriosam maiores aut ex molestias tenetur nesciunt nostrum, quisquam laudantium fugiat cupiditate fuga
+                cumque! Ullam mollitia</p>
+        </div>
+        <!-- Question End -->
+
+        <!-- Question Start -->
+        <div class="mt-5">
+            <h1 class="font-medium text-xl bg-white p-3 rounded-lg">Question-2: What is the difference between
+                innerHTML, innerText, and textContent ?</h1>
+            <p class="text-xl bg-white p-3 rounded-lg mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laboriosam maiores aut ex molestias tenetur nesciunt nostrum, quisquam laudantium fugiat cupiditate fuga
+                cumque! Ullam mollitia</p>
+        </div>
+        <!-- Question End -->
+
+        <!-- Question Start -->
+        <div class="mt-5">
+            <h1 class="font-medium text-xl bg-white p-3 rounded-lg">Question-3: What is event delegation in the DOM?
+            </h1>
+            <p class="text-xl bg-white p-3 rounded-lg mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laboriosam maiores aut ex molestias tenetur nesciunt nostrum, quisquam laudantium fugiat cupiditate fuga
+                cumque! Ullam mollitia</p>
+        </div>
+        <!-- Question End -->
+        <!-- Question Start -->
+        <div class="mt-5">
+            <h1 class="font-medium text-xl bg-white p-3 rounded-lg">Question-4: What is event bubbling in the DOM?</h1>
+            <p class="text-xl bg-white p-3 rounded-lg mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laboriosam maiores aut ex molestias tenetur nesciunt nostrum, quisquam laudantium fugiat cupiditate fuga
+                cumque! Ullam mollitia</p>
+        </div>
+        <!-- Question End -->
+        <!-- Question Start -->
+        <div class="mt-5">
+            <h1 class="font-medium text-xl bg-white p-3 rounded-lg">Question-5: How do you create, add, and remove
+                elements using JavaScript?</h1>
+            <p class="text-xl bg-white p-3 rounded-lg mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laboriosam maiores aut ex molestias tenetur nesciunt nostrum, quisquam laudantium fugiat cupiditate fuga
+                cumque! Ullam mollitia</p>
+        </div>
+        <!-- Question End -->
+
+
+    </main>
+
+    <footer>
+    </footer>
+
+
+    <script>
+        document.getElementById("backButton").addEventListener("click", function () {
+            window.location.href = "index.html";
+        });
+    </script>
+</body>
+
+</html>
