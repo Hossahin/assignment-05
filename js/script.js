@@ -10,7 +10,7 @@ function getID(id) {
     alert("Board updated Successfully");
     const taskNumber = document.getElementById("task-number").innerText;
     const result = taskNumber - 1;
-    document.getElementById("task-number").innerText = "0" + result;
+    document.getElementById("task-number").innerText = result;
     const score = document.getElementById("task-score").innerText;
     const convertedScore = parseFloat(score);
     const finalScore = convertedScore + 1;
@@ -38,3 +38,9 @@ getID("optimize-btn");
 getID("emoji-btn");
 getID("openAi-btn");
 getID("job-btn");
+
+let weekday = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'][new Date().getDay()]
+document.getElementById("weeknd").innerText = weekday;
+
+const today = new Date().toString().split(" ").splice(1, 3).join(" ");
+document.getElementById("date").innerText = today;
