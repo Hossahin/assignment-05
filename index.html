@@ -40,7 +40,7 @@
                 <div class="flex gap-4 items-center">
                     <div class="btn rounded-full bg-[#F4F7FF]">
                         <img class="w-full" alt="" src="assets/checkbox.png" />
-                        <span class="text-2xl">23</span>
+                        <span id="task-score" class="text-2xl">23</span>
                     </div>
                     <div class="rounded-full border-[5px] border-[#F4F7FF]">
                         <img id="random-Color" class="w-full cursor-pointer" alt="" src="assets/theme-btn.png" />
@@ -64,7 +64,7 @@
                         </div>
                         <div>
                             <button>Task Assigned </button>
-                            <h1 class="text-3xl font-bold">06</h1>
+                            <p id="task-number" class="text-3xl font-bold">06</p>
                         </div>
                     </div>
 
@@ -86,14 +86,14 @@
                         </div>
                         <div>
                             <p>Wed </p>
-                            <h1 class="text-3xl font-bold">05</h1>
+                            <p class="text-3xl font-bold">05</p>
                         </div>
                     </div>
 
                     <!-- Card Start -->
                     <div class="p-6 bg-[#F4F7FF] rounded-2xl">
                         <button class="btn border-none bg-white font-normal">ShopEase</button>
-                        <p class="mt-4 text-2xl font-medium text-[#00303C]">Fix Mobile Button Issue </p>
+                        <p id="fix-title" class="mt-4 text-2xl font-medium text-[#00303C]">Fix Mobile Button Issue </p>
                         <div class="mt-4 bg-white p-4 rounded-lg">
                             <p class="opacity-50">Debug using Chrome DevTools, check for overlapping</p>
                         </div>
@@ -104,27 +104,7 @@
                                 <h3 class="text-[#00303C] font-medium">21 March 2025</h3>
                             </div>
                             <div>
-                                <button class="btn bg-[#3752FD] text-white rounded-lg">Completed</button>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Card End -->
-
-                    <!-- Card Start -->
-                    <div class="p-6 bg-[#F4F7FF] rounded-2xl">
-                        <button class="btn border-none bg-white font-normal">ShopEase</button>
-                        <p class="mt-4 text-2xl font-medium text-[#00303C]">Fix Mobile Button Issue </p>
-                        <div class="mt-4 bg-white p-4 rounded-lg">
-                            <p class="opacity-50">Debug using Chrome DevTools, check for overlapping</p>
-                        </div>
-                        <hr class="border-t-2 border-dashed border-[#3752fd33] mt-4">
-                        <div class="flex items-center justify-between mt-4">
-                            <div>
-                                <p class="text-[#00303C] opacity-70 font-normal">Deadline</p>
-                                <h3 class="text-[#00303C] font-medium">21 March 2025</h3>
-                            </div>
-                            <div>
-                                <button class="btn bg-[#3752FD] text-white rounded-lg">Completed</button>
+                                <button id="fix-btn" class="btn bg-[#3752FD] text-white rounded-lg">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -132,10 +112,10 @@
 
                     <!-- Card Start -->
                     <div class="p-6 bg-[#F4F7FF] rounded-2xl">
-                        <button class="btn border-none bg-white font-normal">ShopEase</button>
-                        <p class="mt-4 text-2xl font-medium text-[#00303C]">Fix Mobile Button Issue </p>
+                        <button class="btn border-none bg-white font-normal">CloudSync</button>
+                        <p id="darkmode-title" class="mt-4 text-2xl font-medium text-[#00303C]">Add Dark Mode</p>
                         <div class="mt-4 bg-white p-4 rounded-lg">
-                            <p class="opacity-50">Debug using Chrome DevTools, check for overlapping</p>
+                            <p class="opacity-50">Store the user's preference in localStorage, update CSS</p>
                         </div>
                         <hr class="border-t-2 border-dashed border-[#3752fd33] mt-4">
                         <div class="flex items-center justify-between mt-4">
@@ -144,7 +124,8 @@
                                 <h3 class="text-[#00303C] font-medium">21 March 2025</h3>
                             </div>
                             <div>
-                                <button class="btn bg-[#3752FD] text-white rounded-lg">Completed</button>
+                                <button id="darkmode-btn"
+                                    class="btn bg-[#3752FD] text-white rounded-lg">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -152,8 +133,8 @@
 
                     <!-- Card Start -->
                     <div class="p-6 bg-[#F4F7FF] rounded-2xl">
-                        <button class="btn border-none bg-white font-normal">ShopEase</button>
-                        <p class="mt-4 text-2xl font-medium text-[#00303C]">Fix Mobile Button Issue </p>
+                        <button class="btn border-none bg-white font-normal">SwiftPay</button>
+                        <p id="optimize-title" class="mt-4 text-2xl font-medium text-[#00303C]">Optimize Home page</p>
                         <div class="mt-4 bg-white p-4 rounded-lg">
                             <p class="opacity-50">Debug using Chrome DevTools, check for overlapping</p>
                         </div>
@@ -164,7 +145,8 @@
                                 <h3 class="text-[#00303C] font-medium">21 March 2025</h3>
                             </div>
                             <div>
-                                <button class="btn bg-[#3752FD] text-white rounded-lg">Completed</button>
+                                <button id="optimize-btn"
+                                    class="btn bg-[#3752FD] text-white rounded-lg">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -172,8 +154,8 @@
 
                     <!-- Card Start -->
                     <div class="p-6 bg-[#F4F7FF] rounded-2xl">
-                        <button class="btn border-none bg-white font-normal">ShopEase</button>
-                        <p class="mt-4 text-2xl font-medium text-[#00303C]">Fix Mobile Button Issue </p>
+                        <button class="btn border-none bg-white font-normal">Meta</button>
+                        <p id="emoji-title" class="mt-4 text-2xl font-medium text-[#00303C]">Add new emoji 🤲</p>
                         <div class="mt-4 bg-white p-4 rounded-lg">
                             <p class="opacity-50">Debug using Chrome DevTools, check for overlapping</p>
                         </div>
@@ -184,7 +166,7 @@
                                 <h3 class="text-[#00303C] font-medium">21 March 2025</h3>
                             </div>
                             <div>
-                                <button class="btn bg-[#3752FD] text-white rounded-lg">Completed</button>
+                                <button id="emoji-btn" class="btn bg-[#3752FD] text-white rounded-lg">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -192,8 +174,8 @@
 
                     <!-- Card Start -->
                     <div class="p-6 bg-[#F4F7FF] rounded-2xl">
-                        <button class="btn border-none bg-white font-normal">ShopEase</button>
-                        <p class="mt-4 text-2xl font-medium text-[#00303C]">Fix Mobile Button Issue </p>
+                        <button class="btn border-none bg-white font-normal">Google LLC</button>
+                        <p id="openAi-title" class="mt-4 text-2xl font-medium text-[#00303C]">Integrate OpenAI API</p>
                         <div class="mt-4 bg-white p-4 rounded-lg">
                             <p class="opacity-50">Debug using Chrome DevTools, check for overlapping</p>
                         </div>
@@ -204,7 +186,28 @@
                                 <h3 class="text-[#00303C] font-medium">21 March 2025</h3>
                             </div>
                             <div>
-                                <button class="btn bg-[#3752FD] text-white rounded-lg">Completed</button>
+                                <button id="openAi-btn"
+                                    class="btn bg-[#3752FD] text-white rounded-lg">Completed</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card End -->
+
+                    <!-- Card Start -->
+                    <div class="p-6 bg-[#F4F7FF] rounded-2xl">
+                        <button class="btn border-none bg-white font-normal">Glassdoar</button>
+                        <p id="job-title" class="mt-4 text-2xl font-medium text-[#00303C]">Improve Job searching</p>
+                        <div class="mt-4 bg-white p-4 rounded-lg">
+                            <p class="opacity-50">Debug using Chrome DevTools, check for overlapping</p>
+                        </div>
+                        <hr class="border-t-2 border-dashed border-[#3752fd33] mt-4">
+                        <div class="flex items-center justify-between mt-4">
+                            <div>
+                                <p class="text-[#00303C] opacity-70 font-normal">Deadline</p>
+                                <h3 class="text-[#00303C] font-medium">21 March 2025</h3>
+                            </div>
+                            <div>
+                                <button id="job-btn" class="btn bg-[#3752FD] text-white rounded-lg">Completed</button>
                             </div>
                         </div>
                     </div>
@@ -212,19 +215,19 @@
                 </div>
 
 
-                <div class="bg-white p-6 rounded-2xl">
+                <div class="bg-white p-6 w-96 rounded-2xl">
                     <div class="flex gap-4 justify-center">
                         <img src="assets/activity.png" alt="">
                         <p class="font-medium">Activity Log</p>
                     </div>
-                    <button class="btn bg-[#3752FD] text-white rounded-lg mt-4 flex mx-auto">Clear History</button>
+                    <button id="clear-btn" class="btn bg-[#3752FD] text-white rounded-lg mt-4 flex mx-auto">Clear History</button>
                     <hr class="border-t-2 border-dashed border-[#3752fd33] mt-4 mb-9 ">
 
                     <div id="history-container">
-                        <p class="bg-[#F4F7FF] p-2 rounded opacity-70">You have Complete The Task Add Dark Mode at 12:48:15 PM</p>
+                        <!-- <p class="bg-[#F4F7FF] p-2 rounded opacity-70">You have Complete The Task Add Dark Mode at
+                            12:48:15 PM</p> -->
                     </div>
                 </div>
-
         </section>
     </main>
 
@@ -252,6 +255,8 @@
         });
 
     </script>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
