@@ -28,8 +28,7 @@
 </head>
 
 <body id="changeColorBody" class="font-poppins bg-[#F4F7FF]">
-
-    <header class="container mx-auto">
+    <header class="container mx-auto pt-6">
         <section class="">
             <div class="navbar bg-white shadow-sm flex justify-between rounded-2xl px-6">
                 <div class="flex items-center">
@@ -48,14 +47,13 @@
 
     <main class="container mx-auto mt-5 pb-11">
         <h1 class="text-center font-bold text-2xl">Blogs</h1>
-
         <!-- Question Start -->
         <div>
             <h1 class="font-medium text-xl bg-white p-3 rounded-lg">Question-1: What are the different ways to select an
                 element in the DOM?</h1>
-            <p class="text-xl bg-white p-3 rounded-lg mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam maiores aut ex molestias tenetur nesciunt nostrum, quisquam laudantium fugiat cupiditate fuga
-                cumque! Ullam mollitia</p>
+            <p class="text-xl bg-white p-3 rounded-lg mt-1">বিভিন্ন ভাবে DOM এর মাধ্যমে আমরা Html element select করতে
+                পারি পারি যেমনঃ getElementsByName, getElementsByClassName, getElementsByTagName, getElementById,
+                querySelector, querySelectorAll ইত্যাদি </p>
         </div>
         <!-- Question End -->
 
@@ -63,9 +61,10 @@
         <div class="mt-5">
             <h1 class="font-medium text-xl bg-white p-3 rounded-lg">Question-2: What is the difference between
                 innerHTML, innerText, and textContent ?</h1>
-            <p class="text-xl bg-white p-3 rounded-lg mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam maiores aut ex molestias tenetur nesciunt nostrum, quisquam laudantium fugiat cupiditate fuga
-                cumque! Ullam mollitia</p>
+            <p class="text-xl bg-white p-3 rounded-lg mt-1">innerHTML, innerText, and textContent এগুলোর মধ্যে মূলত
+                পার্থক্য হলোঃ innerHTML মূলত কোনো element এর ভিতরের Html Tag বা Html Collection কে বুঝায়
+                আর innerText বলতে মূলত কোনো element এর ভিতরের লেখাগুলোকে বুঝাই ।
+            </p>
         </div>
         <!-- Question End -->
 
@@ -73,36 +72,30 @@
         <div class="mt-5">
             <h1 class="font-medium text-xl bg-white p-3 rounded-lg">Question-3: What is event delegation in the DOM?
             </h1>
-            <p class="text-xl bg-white p-3 rounded-lg mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam maiores aut ex molestias tenetur nesciunt nostrum, quisquam laudantium fugiat cupiditate fuga
-                cumque! Ullam mollitia</p>
+            <p class="text-xl bg-white p-3 rounded-lg mt-1">Event Delegation মানে হলো parent element-এর মাধ্যমে child
+                element গুলোর event handle করা ।</p>
         </div>
         <!-- Question End -->
         <!-- Question Start -->
         <div class="mt-5">
             <h1 class="font-medium text-xl bg-white p-3 rounded-lg">Question-4: What is event bubbling in the DOM?</h1>
-            <p class="text-xl bg-white p-3 rounded-lg mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam maiores aut ex molestias tenetur nesciunt nostrum, quisquam laudantium fugiat cupiditate fuga
-                cumque! Ullam mollitia</p>
+            <p class="text-xl bg-white p-3 rounded-lg mt-1">event bubbling হচ্ছে DOM এ এমন একটা
+                প্রসেস, যেখানে কোনো ইভেন্ট যেমন click, প্রথমে যে element-এ ঘটেছে, সেখান থেকে উপরের দিকে তার parent, এমন
+                করে একে একে উপরের সব parent element এর কাছে ছড়িয়ে পড়ে।</p>
         </div>
         <!-- Question End -->
         <!-- Question Start -->
         <div class="mt-5">
             <h1 class="font-medium text-xl bg-white p-3 rounded-lg">Question-5: How do you create, add, and remove
                 elements using JavaScript?</h1>
-            <p class="text-xl bg-white p-3 rounded-lg mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam maiores aut ex molestias tenetur nesciunt nostrum, quisquam laudantium fugiat cupiditate fuga
-                cumque! Ullam mollitia</p>
+            <p class="text-xl bg-white p-3 rounded-lg mt-1">Javascript এর মাধ্যমে create, add, and remove
+                elements করার জন্য আমরা document.createElement, document.removeChild, append, appendChild ইত্যাদি
+                ব্যবহার করে থাকি ।</p>
         </div>
         <!-- Question End -->
-
-
     </main>
-
     <footer>
     </footer>
-
-
     <script>
         document.getElementById("backButton").addEventListener("click", function () {
             window.location.href = "index.html";
